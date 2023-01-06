@@ -5,7 +5,6 @@ import configload
 from function import chatAI
 import variable
 import sys
-sys.tracebacklimit = 0
 lastDate = ''
 guild_id = configload.getConfigSetting("Credentials", "Guild_id")
 token = configload.getConfigSetting("Credentials", "Token")
